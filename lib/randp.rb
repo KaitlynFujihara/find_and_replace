@@ -9,7 +9,6 @@ class Replace
   new_array.push(split_word)
   split_word.gsub! "world", "universe"
   new_array.join()
-
     end
   end
 end

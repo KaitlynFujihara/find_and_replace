@@ -3,14 +3,7 @@ require('pry')
 require("randp")
 
 describe('randp') do
-it("split word whenever there's a space") do
-  word = Replace.new()
-  expect(word.find("Hello world")).to(eq(["Hello", "world"]))
-  end
-end
-
-describe('randp') do
-it("replaces word with universe") do
+it("replace 'world' in 'hello world' with 'universe'") do
   word = Replace.new()
   expect(word.find("Hello world")).to(eq(["Hello", "universe"]))
   end
